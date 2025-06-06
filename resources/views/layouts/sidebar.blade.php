@@ -45,6 +45,12 @@
             <span class="ml-1 item-text">Dispositivos</span>
             </a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link pl-3" href="{{ route('ubicacion_antenas.index') }}">
+            <i class="fe fe-map fe-16"></i>
+            <span class="ml-1 item-text">Ubicacion Antenas</span>
+            </a>
+        </li>
     </ul>
   </nav>
 </aside>
