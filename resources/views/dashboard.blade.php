@@ -95,7 +95,7 @@
           <div class="col-12">
             <div class="row align-items-center mb-2">
               <div class="col">
-                <h2 class="h5 page-title">Welcome!</h2>
+                <h2 class="h5 page-title">Bienvenido!</h2>
               </div>
               <div class="col-auto">
                 <form class="form-inline">
@@ -105,10 +105,7 @@
                       <span class="small"></span>
                     </div>
                   </div>
-                  <div class="form-group">
-                    <button type="button" class="btn btn-sm"><span class="fe fe-refresh-ccw fe-16 text-muted"></span></button>
-                    <button type="button" class="btn btn-sm mr-2"><span class="fe fe-filter fe-16 text-muted"></span></button>
-                  </div>
+                 
                 </form>
               </div>
             </div>
