@@ -3,7 +3,7 @@
     <i class="fe fe-menu navbar-toggler-icon"></i>
   </button>
   <form class="form-inline mr-auto searchform text-muted">
-    <input class="form-control mr-sm-2 bg-transparent border-0 pl-4 text-muted" type="search" placeholder="Type something..." aria-label="Search">
+    <input class="form-control mr-sm-2 bg-transparent border-0 pl-4 text-muted" type="search" placeholder="Buscar..." aria-label="Search">
   </form>
   <ul class="nav">
     <li class="nav-item">
@@ -11,11 +11,7 @@
         <i class="fe fe-sun fe-16"></i>
       </a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link text-muted my-2" href="#" data-toggle="modal" data-target=".modal-shortcut">
-        <span class="fe fe-grid fe-16"></span>
-      </a>
-    </li>
+   
     <li class="nav-item nav-notif">
       <a class="nav-link text-muted my-2" href="#" data-toggle="modal" data-target=".modal-notif">
         <span class="fe fe-bell fe-16"></span>
@@ -29,9 +25,17 @@
         </span>
       </a>
       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href="#">Profile</a>
-        <a class="dropdown-item" href="#">Settings</a>
-        <a class="dropdown-item" href="#">Activities</a>
+        <a class="dropdown-item" href="#"><i class="fe fe-user mr-2"></i> Perfil</a>
+        <a class="dropdown-item" href="#"><i class="fe fe-settings mr-2"></i> Configuración</a>
+        <div class="dropdown-divider"></div>
+
+        <!-- Cerrar sesión -->
+        <form method="POST" action="{{ route('logout') }}">
+          @csrf
+          <button type="submit" class="dropdown-item text-danger">
+            <i class="fe fe-log-out mr-2"></i> Cerrar Sesión
+          </button>
+        </form>
       </div>
     </li>
   </ul>
