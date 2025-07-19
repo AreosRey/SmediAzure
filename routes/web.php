@@ -26,7 +26,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/municipios', [MunicipioController::class, 'index'])->name('municipios.index');
+Route::resource('municipios', MunicipioController::class);
 Route::resource('localidades', LocalidadController::class);
 Route::resource('estado-energia', EstadoEnergiaController::class);
 Route::resource('dispositivos', DispositivoController::class);

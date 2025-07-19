@@ -435,7 +435,6 @@
         grid-template-columns: 1fr;
       }
       
-    
     }
   </style>
 </head>
@@ -554,7 +553,7 @@
                 <p>Nuestra misión es poder brindar un servicio de internet de calidad a las comunidades de Bacalar, mediante un monitoreo de energía eléctrica por dispositivos IoT, facilitando una solución y un plan de acción para mitigar los cortes de internet y brindar un servicio de calidad.</p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets copy/img/mision.webp" alt="" class="img-fluid">
+                <img src="{{ asset('img/homepage/mision.jpg') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -566,6 +565,7 @@
                 <p>Ser una solución en el monitoreo de enlaces inalámbricos mediante dispositivos IoT, garantizando una supervisión en tiempo real del estado de la energía eléctrica. Así como ofrecer soluciones innovadoras, seguras y eficientes que optimicen la toma de decisiones y que mejoren la calidad del servicio.</p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="{{ asset('img/homepage/vision.jpg') }}" alt="" class="img-fluid">
                 <img src="assets copy/img/vision.webp" alt="" class="img-fluid">
               </div>
             </div>
@@ -585,7 +585,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets copy/img/valores.webp" alt="" class="img-fluid">
+                <img src="{{ asset('img/homepage/valores.png') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -601,7 +601,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets copy/img/sonriendo.webp" alt="" class="img-fluid">
+                <img src="{{ asset('img/homepage/porque_elegirnos.jpg') }}" alt="" class="img-fluid">
               </div>
             </div>
           </div>
